@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-link {
+  color: #09d3ac;
+}
+
+.header{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CalculatorButton{
+  cursor: pointer;
+  width: 100px; 
+  margin-bottom: 5px; 
+  color: white;
+  background-color: blue;
+  text-align: center;
+  margin-right: 5px
+}
+
+.TwoButtonContainer{
+  display: flex;
+}
+.Label{
+  color:gray;
+}
+input[type='number']{
+  border: unset;
+  border-bottom: 1px solid grey;
+  outline: unset;
+  font-size: 15px;
+}
