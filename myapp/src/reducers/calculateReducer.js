@@ -25,10 +25,10 @@ let calculateReducer = produce((state = {}, action) => {
             return;
         case DIVIDE:
             if (state.number1 && state.number2 && !isNaN(state.number1) && !isNaN(state.number2)) {
-                if (state.number2) {
+                if (Number(state.number2)) {
                     state.result = Number(state.number1) / Number(state.number2);
                 } else {
-                    state.result = 'Error: Divide by 0 or null '
+                    // state.result = 'Error: Divide by 0 or null '
                 }
             }
             return;
